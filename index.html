@@ -107,6 +107,8 @@ a.cg:hover .open .arr { transform: translateX(3px); }
 .cg.soon .thumb svg { height: auto; opacity: 0.5; }
 .cg.soon .thumb svg path { fill: none; stroke: var(--muted); stroke-width: 1.4; stroke-dasharray: 3 4; }
 .cg.soon .title { color: var(--muted); }
+.cg.soon .span { font-family: var(--f-mono); font-size: 0.72rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); font-variant-numeric: lining-nums tabular-nums; }
+.cg.soon .blurb { color: var(--muted); }
 .badge { font-family: var(--f-mono); font-size: 0.66rem; letter-spacing: 0.08em; text-transform: uppercase; border: 1px solid var(--rule); border-radius: 999px; padding: 3px 9px; color: var(--muted); background: var(--bg); }
 
 .note { font-family: var(--f-mono); color: var(--muted); padding: 24px 0; }
@@ -177,6 +179,7 @@ function card(c, i) {
       <div class="thumb"><svg viewBox="0 0 200 80" aria-hidden="true"><path d="M2 70 L30 60 L52 64 L80 44 L104 50 L130 30 L158 34 L198 10"/></svg></div>
       <div class="body">
         <div class="meta"><span>${no}</span><span class="badge">Coming soon</span></div>
+        ${c.span ? `<span class="span">${esc(c.span)}</span>` : ""}
         <h3 class="title">${esc(c.title)}</h3>
         ${c.blurb ? `<p class="blurb">${esc(c.blurb)}</p>` : ""}
       </div></div></li>`;

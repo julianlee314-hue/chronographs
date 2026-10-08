@@ -27,8 +27,29 @@
       "repo": "https://github.com/julianlee314-hue/ww2-strat-map",
       "status": "live"
     },
-    { "title": "Chronograph IV", "span": "", "blurb": "", "url": "", "thumb": "", "status": "soon" },
-    { "title": "Chronograph V",  "span": "", "blurb": "", "url": "", "thumb": "", "status": "soon" },
-    { "title": "Chronograph VI", "span": "", "blurb": "", "url": "", "thumb": "", "status": "soon" }
+    {
+      "title": "The Company-States",
+      "span": "1492–1874",
+      "blurb": "From Columbus to the chartered giants: the East India companies and other trading corporations that ran armies, coins and colonies like governments.",
+      "url": "",
+      "thumb": "",
+      "status": "soon"
+    },
+    {
+      "title": "World War Two in Asia & the Pacific, Week by Week",
+      "span": "1937–1945",
+      "blurb": "The war against Japan from Marco Polo Bridge to the surrender in Tokyo Bay, one week at a time.",
+      "url": "",
+      "thumb": "",
+      "status": "soon"
+    },
+    {
+      "title": "Vietnam, Week by Week",
+      "span": "1955–1975",
+      "blurb": "America's longest war of its era, from the first advisers to the fall of Saigon, week by week.",
+      "url": "",
+      "thumb": "",
+      "status": "soon"
+    }
   ]
 }
