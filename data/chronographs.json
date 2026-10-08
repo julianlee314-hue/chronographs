@@ -1,0 +1,34 @@
+{
+  "chronographs": [
+    {
+      "title": "The Dow",
+      "span": "1896–2026",
+      "blurb": "130 years of the Dow Jones on a log scale, one headline event a year, with the presidents running underneath.",
+      "url": "https://julianlee314-hue.github.io/dow-timeline/v0.2/",
+      "thumb": "img/dow.jpg",
+      "repo": "https://github.com/julianlee314-hue/dow-timeline",
+      "status": "live"
+    },
+    {
+      "title": "The Bank",
+      "span": "1694–1994",
+      "blurb": "Three centuries of the Bank of England along the long gilt yield: wars, panics, gold and paper money, with the monarchs below.",
+      "url": "https://julianlee314-hue.github.io/the-bank-1694/",
+      "thumb": "img/bank.jpg",
+      "repo": "https://github.com/julianlee314-hue/the-bank-1694",
+      "status": "live"
+    },
+    {
+      "title": "World War Two, Week by Week",
+      "span": "1939–1945",
+      "blurb": "The war in Europe on a war-room map, from the invasion of Poland to VE Day, with the news pinned where it happened.",
+      "url": "https://julianlee314-hue.github.io/ww2-strat-map/",
+      "thumb": "img/ww2.jpg",
+      "repo": "https://github.com/julianlee314-hue/ww2-strat-map",
+      "status": "live"
+    },
+    { "title": "Chronograph IV", "span": "", "blurb": "", "url": "", "thumb": "", "status": "soon" },
+    { "title": "Chronograph V",  "span": "", "blurb": "", "url": "", "thumb": "", "status": "soon" },
+    { "title": "Chronograph VI", "span": "", "blurb": "", "url": "", "thumb": "", "status": "soon" }
+  ]
+}
